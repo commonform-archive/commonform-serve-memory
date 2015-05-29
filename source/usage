@@ -1,0 +1,9 @@
+Serve Common Forms over HTTP from an in-memory database.
+
+Usage:
+  commonform-serve-memory [options]
+  commonform-serve-memory --help | -h
+  commonform-serve-memory --version | -v
+
+Options:
+  -p PORT, --port PORT    HTTP server port [default: 8080]

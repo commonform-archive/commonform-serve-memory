@@ -1,0 +1,46 @@
+{
+  "name": "commonform-serve-memory",
+  "description": "serve Common Forms over HTTP from a memory store",
+  "version": "0.0.0",
+  "author": {
+    "name": "Kyle E. Mitchell",
+    "email": "kyle@kemitchell.com",
+    "url": "http://kemitchell.com"
+  },
+  "bin": {
+    "commonform-serve-memory": "./bin/commonform-serve-memory"
+  },
+  "bugs": {
+    "url": "https://github.com/commonform/commonform-serve-memory/issues"
+  },
+  "dependencies": {
+    "bole": "2.0.0",
+    "commonform-serve": "0.3.0",
+    "docopt": "0.6.2",
+    "levelup": "1.1.0",
+    "memdown": "1.0.0"
+  },
+  "devDependencies": {
+    "fixpack": "2.2.0",
+    "jscs": "1.13.1",
+    "jshint": "2.7.0"
+  },
+  "homepage": "https://github.com/commonform/commonform-serve-memory",
+  "keywords": [
+    "HTTP",
+    "contracts",
+    "document assembly",
+    "knowledge management",
+    "law"
+  ],
+  "license": "Apache-2.0",
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/commonform/commonform-serve-memory.git"
+  },
+  "scripts": {
+    "lint": "fixpack && jshint source && jscs source",
+    "precommit": "npm run lint"
+  }
+}
